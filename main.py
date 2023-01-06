@@ -9,6 +9,8 @@ import hydra
 import mlflow
 from omegaconf import DictConfig
 
+import wandb
+
 _steps = [
     "download",
     "basic_cleaning",
